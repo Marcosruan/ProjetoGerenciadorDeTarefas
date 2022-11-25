@@ -1,0 +1,91 @@
+/*body{
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(146,141,179,1) 100%);
+}*/
+h2, h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login .container #login-row #login-column #login-box{
+    margin-top: auto;
+    max-width: 600px;
+    height: 350px;
+    border: 2px solid #40abe1;
+    background: linear-gradient(90deg, rgba(26,0,198,1) 0%, rgba(12,0,147,1) 100%);
+    border-radius: 20px;
+    margin: auto;
+    padding: auto;
+    
+}
+#login .container #login-row 
+    #login-column #login-box #login-form{
+        padding: 20px;
+        margin-top: 20px;
+
+}
+#register .container #register-row #register-column #register-box{
+    margin-top: auto;
+    max-width: 600px;
+    height: 480px;
+    border: 2px solid #40abe1;
+    background: linear-gradient(90deg, rgba(26,0,198,1) 0%, rgba(12,0,147,1) 100%);
+    border-radius: 20px;
+    margin: auto;
+    padding: auto;
+}
+#register .container #register-row 
+    #register-column #register-box #register-form{
+        padding: 20px;
+        margin-top: 30px;
+}
+
+#register {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#dropdown-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: rgb(77, 237, 189);
+  }
+  .profile-button {
+    box-shadow: none;
+    border: none;
+    background: rgb(118, 233, 199);
+  }
+  .profile-button:hover{
+background: rgb(62, 133, 113);
+  }
+  .profile-button:focus {
+    background: rgb(20, 118, 90);
+    box-shadow: none;
+  }
+  .profile-button:active {
+    background: rgb(41, 120, 97);
+    box-shadow: none;
+  }
+  .labels {
+    font-size: 11px;
+  }
